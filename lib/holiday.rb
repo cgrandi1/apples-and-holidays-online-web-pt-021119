@@ -74,7 +74,7 @@ new_array = []
        holiday_names.each do |values|
         if values == "BBQ" << new_array
         binding.pry
-      end 
+    end 
   end 
 end 
 
