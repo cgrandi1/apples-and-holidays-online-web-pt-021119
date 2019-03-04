@@ -70,7 +70,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 new_array = []
 holiday_hash.each do |key, holiday_names|
-  puts ": #{holiday_names}"  << new_array
+   ": #{holiday_names}"  << new_array
     holiday_names.each do |values|
   binding.pry
   end 
