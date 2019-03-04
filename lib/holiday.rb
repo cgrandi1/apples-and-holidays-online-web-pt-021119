@@ -76,7 +76,8 @@ holiday_hash.each do |key, value|
   end 
  end 
 end 
-
+new_array
+end 
 
 
 
