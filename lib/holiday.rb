@@ -73,7 +73,8 @@ holiday_hash.each do |key, holiday_names|
   puts ": #{holiday_names}"  << new_array
     holiday_names.each do |values|
   binding.pry
-end 
+  end 
+ end 
 end 
 
 
