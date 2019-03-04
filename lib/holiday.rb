@@ -71,8 +71,8 @@ def all_holidays_with_bbq(holiday_hash)
 new_array = []
 holiday_hash.each do |key, value|
    value.each do |element|
-     if element.include?("BBQ") << new_array
-       binding.pry
+     if element.include?("BBQ") 
+       new_array.push 
   end 
  end 
 end 
