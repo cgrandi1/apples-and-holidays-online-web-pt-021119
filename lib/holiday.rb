@@ -72,7 +72,7 @@ new_array = []
 holiday_hash.each do |key, holiday_names|
   binding.pry
   puts ": #{holiday_names}"  << new_array
-
+end 
 
 
 
