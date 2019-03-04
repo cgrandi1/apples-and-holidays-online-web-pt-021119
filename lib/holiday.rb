@@ -72,7 +72,7 @@ new_array = []
 holiday_hash.each do |key, value|
    value.each do |element|
      if element.include?("BBQ") 
-       new_array.push 
+       new_array.push("element")
   end 
  end 
 end 
