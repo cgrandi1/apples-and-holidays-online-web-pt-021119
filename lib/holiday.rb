@@ -69,10 +69,10 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 new_array = []
-holiday_hash.each do |key, holiday_names|
-  binding.pry
-  puts ": #{holiday_names}"  << new_array
-end 
+  holiday_hash.each do |key, holiday_names|
+    binding.pry
+    puts ": #{holiday_names}"  << new_array
+  end 
 end 
 
 
